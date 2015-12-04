@@ -1,0 +1,21 @@
+html,body,div,span,p,a,img,ul,li,dl,dt,dd,ol,form,label,form{ margin:0; padding:0; border:0; outline:0; font-size:100%;} 
+body{ font-size:13px !important; font-size:12px; background-color:#FFFFFF; font-family:Tahoma,Verdana; line-height:150%; background-color:#ffffff;} 
+td{ height:20px;} 
+a{ font-size:13px !important; font-size:12px; color:#464646; text-decoration:none;} 
+a link { color:#000000;}
+a:visited{ color:#000000;} 
+a:hover{ text-decoration:underline; color:#0868C8;} 
+a:active{ color:#0868C8;}
+#bgd{background-image:url(images/bg/bg2.jpg);background-size:100%}
+#div1{width:100%;height:100px;text-align:center;}
+#div2{width:100%;height:30%;text-align:center;margin-bottom:30px;}
+#div3{width:100%;height:45%}
+#p1{font-size:60px;color:red;line-heading:60px;text-align:center;font-weight:1000;padding-top:25px;}
+#tubiao1{width:5%;float:left;position:absolute;top:12px;left:5px;}
+#tubiao2{width:5%;float:right;position:absolute;top:12px;right:5px;}
+#img{width:65%;vertical-align:middle;} 
+.image{width:45%;vertical-align: middle;margin-left:3%;margin-top:3%;}
+img{ border:none;} 
+ol,ul,li{ list-style:none;} 
+.container{ width:980px; margin:0 auto;} 
+.main_tit{ height:28px; padding-left:10px; background:url(tit_bg.gif) repeat-x; color:#004F96; font-weight:bold;} 
