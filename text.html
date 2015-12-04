@@ -1,0 +1,141 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="Utf-8"/>
+	<link rel="stylesheet" type="text/css" href="CSS.css" />
+</head>	
+
+<body>
+	<h1 class="orange">Heading 1<h1><hr/>
+	<h2>Heading 2<h2><hr/>
+	<h3 class="orange">Heading 3<h3><hr/>
+	<h4>Heading 4<h4><hr/>
+	
+	<p>
+		　　　　圆角的空格会显示在网页中.<br>　　　　　我是一句话．
+	</p><hr />
+	<p id="reds">
+		这个段落字体被设置为红色12px.
+	</p><hr />
+	<p id="blueb">
+		这个段落字体被设置为蓝色30px.
+	</p><hr />
+	<p id="sidebar">
+		我经过了特殊处理.
+	</p>
+	
+	<ul type="square">
+		<li>西瓜</li>
+		<li>苹果</li>
+		<li>香蕉</li>
+	</ul>
+	
+	<ol type="I">
+		<li>西瓜</li>
+			<ol type="A">
+				<li>大西瓜</li>
+				<li>小西瓜</li>
+				<li>新疆西瓜</li>
+			</ol>
+		<li>苹果</li>
+		<li>香蕉</li>
+	</ol>
+	
+	<ol start="100">
+		<li>西瓜</li>
+		<li>苹果</li>
+		<li>香蕉</li>
+	</ol>
+	
+	<dl>
+		<dt>
+			苹果
+		</dt>
+		<dd>
+			红色水果.
+		</dd>
+		<dt>
+			香蕉
+		</dt>
+		<dd>
+			黄色水果.
+		</dd>
+	</dl>
+	<!--这是定义列表-->	
+	
+	<div id="di">
+	</div>
+	
+	<img width="300" height="200" src="images/bsj1.jpg" alt="保时捷" usemap="#car"/>
+	<map id="car" name="car">
+		<area shape="rect" coords="0,0,50,50" href="http://www.baidu.com" alt="百度" target="_blank"/>
+		<area shape="circle" coord="150,100,50" href="http://www.w3school.com" alt="W3school"/>	
+	</map>
+	
+	<table class="fancy" border="5" cellpadding="10" cellspacing="1" width="200" height="200" align="center">
+		<caption>表格</caption>
+		<tr>
+			<th colspan="2">th 1</th>
+			<th>th2</th>
+		</tr>
+		<tr>
+			<td>
+				<p class="fancy">td1</p>
+			</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td rowspan="2">td2</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>	
+	</table>
+	
+	<p>
+		<strong>我不在li中,我是粗体字.</strong>
+	</p>
+		
+	<ul>
+		<li><strong>我在li中，我是斜体字</strong></li>
+	</ul>
+	
+	<p title="title">
+		我是title定义的.
+	</p>
+	<p title="hello student hi">
+		title~=用于空格连接的属性值.	
+	</p>
+	<p title="student-hello">
+		title|=用于连字符分隔的属性值.(必须title属性值在前才可连接)
+	</p>		
+								
+</body>
+
+<form name="input" action="http://www.baidu.com" method="get">
+	<input type="text" id="name" value="张三" checked="checked" /></br />
+	男:
+	<input type="radio" name="sex" value="男" /><br />
+	女:
+	<input type="radio" name="sex" value="女" /><br />
+	<input type="button" id="butt" value="提交" />
+</form>
+<form>
+	请输入名字:<input type="text" value="name" /><br/>
+	请输入密码:<input type="password" value="password"><br/>
+	文件上传:<input type="file" /><br />
+	隐藏:<input type="hidden" /><br />
+	<input type="button" value="确认" /><br />
+	苹果:<input type="radio" name="sg" value="pg" /><br/>
+	香蕉:<input type="radio" name="sg" value="xj" checked="checked" /><br/>
+	茶:<input type="checkbox" value="tea" /><br />
+	奶茶:<input type="checkbox" value="milk" /><br />
+	<input type="submit" value="提交" />
+	<input type="reset" value="重置" /><br />
+</form>
+
+</html>
